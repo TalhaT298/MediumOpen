@@ -1,13 +1,12 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
-import Medium from '../Medium/Medium';
 
-const Home = () => {
+const Medium = () => {
     return (
         <div>
-            <Medium></Medium>
+            ,,,
         </div>
     );
 };
 
-export default Home;
+export default Medium;
