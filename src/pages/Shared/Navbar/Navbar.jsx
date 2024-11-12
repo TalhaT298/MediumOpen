@@ -10,7 +10,7 @@ const Navbar = () => {
             className="text-xl"
             style={{ fontFamily: "Atma, sans-serif", fontWeight: 400 }}
           >
-            ChatGPT বাংলা
+            বাংলাGPT 
           </a>
         </div>
         <div className="flex-none ">
