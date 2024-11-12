@@ -2,7 +2,7 @@
 
 /* eslint-disable no-unused-vars */
 import React from 'react';
-
+import { AiFillEnvironment } from "react-icons/ai";
 const Navbar = () => {
   return (
     <div>
@@ -15,7 +15,7 @@ const Navbar = () => {
       <li><a>Link</a></li>
       <li>
         <details>
-          <summary>Parent</summary>
+          <summary><AiFillEnvironment /></summary>
           <ul className="bg-base-100 rounded-t-none p-2">
             <li><a>Link 1</a></li>
             <li><a>Link 2</a></li>
