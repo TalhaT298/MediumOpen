@@ -4,8 +4,7 @@ import React from 'react';
 const Medium = () => {
     return (
         <div>
-            
-            <p style={{ fontFamily: 'Atma, sans-serif', fontWeight: 400 }}>
+            <p  বাংলা>
                 আলিনুর কথা
             </p>
         </div>
