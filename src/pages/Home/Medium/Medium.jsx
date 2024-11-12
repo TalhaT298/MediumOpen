@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
-import { IoIosCodeDownload } from "react-icons/io";
+
 const Medium = () => {
     return (
         <div className="flex flex-col items-center justify-center py-20 bg-black text-white">
@@ -13,10 +13,10 @@ const Medium = () => {
             </p>
             <div className="flex gap-4">
                 <button className="px-8 py-0 bg-white text-black rounded-full font-medium hover:bg-black hover:text-white">
-                    Start now
+                ⤷ Start now
                 </button>
                 <button className="px-6 py-3  border-white rounded-full font-medium hover:bg-white hover:text-black">
-                    Download the app
+                    Download the app ➤
                 </button>
             </div>
         </div>
