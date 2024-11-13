@@ -5,7 +5,7 @@ const Medium = () => {
     return (
         <div className="flex flex-col items-center justify-center py-20 bg-black text-white">
             <h1 className="text-xl font-light" style={{ fontFamily: "Atma, sans-serif", fontWeight: 400 }}> বাংলাGPT</h1>
-            <h2 className="text-4xl font-extrabold mt-4 mb-2 text-center" style={{ fontFamily: "Atma, sans-serif", fontWeight: 600 }}>
+            <h2 className="text-5xl font-extrabold mt-4 mb-2 text-center" style={{ fontFamily: "Atma, sans-serif", fontWeight: 600 }}>
                 Get answers. Find inspiration. <br /> Be more productive.
             </h2>
             <p className="text-lg font-light mt-2 mb-8 text-center max-w-md">
