@@ -138,7 +138,31 @@ const Technology = () => {
               className="text-xl md:text-2xl font-bold font-serif"
               style={{ fontFamily: "Atma, sans-serif", fontWeight: 400 }}
             >
+              মেশিন লার্নিং
+            </p>
+          </div>
+          <div className="border border-white p-4 rounded-md shadow-md text-center text-white text-xl md:text-4xl font-extrabold font-serif px-4">
+            <p
+              className="text-xl md:text-2xl font-bold font-serif"
+              style={{ fontFamily: "Atma, sans-serif", fontWeight: 400 }}
+            >
               ধারণা A
+            </p>
+          </div>
+          <div className="border border-white p-4 rounded-md shadow-md text-center text-white text-xl md:text-4xl font-extrabold font-serif px-4">
+            <p
+              className="text-xl md:text-2xl font-bold font-serif"
+              style={{ fontFamily: "Atma, sans-serif", fontWeight: 400 }}
+            >
+              সাধারণ সহায়তা
+            </p>
+          </div>
+          <div className="border border-white p-4 rounded-md shadow-md text-center text-white text-xl md:text-4xl font-extrabold font-serif px-4">
+            <p
+              className="text-xl md:text-2xl font-bold font-serif"
+              style={{ fontFamily: "Atma, sans-serif", fontWeight: 400 }}
+            >
+              জলবায়ু পরিবর্তন
             </p>
           </div>
         </div>
