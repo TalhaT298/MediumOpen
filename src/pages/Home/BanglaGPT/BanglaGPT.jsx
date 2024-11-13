@@ -3,9 +3,18 @@ import React from 'react';
 
 const BanglaGPT = () => {
     return (
-        <div>
-            
+        <>
+        <div className="flex items-center justify-center  bg-black text-center text-white">
+            <div>
+                <h1 className="text-3xl md:text-5xl font-semibold mb-4">
+                    Writes, brainstorms, edits,<br /> and explores ideas with BanglaGPT
+                </h1>
+                <p className="text-gray-400 underline text-lg mt-4 cursor-pointer">
+                    Learn more about writing with ChatGPT &gt;
+                </p>
+            </div>
         </div>
+        </>
     );
 };
 
