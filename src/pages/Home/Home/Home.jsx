@@ -3,6 +3,7 @@ import React from 'react';
 import Medium from '../Medium/Medium';
 import Technology from '../Technology/Technology';
 import BanglaGPT from '../BanglaGPT/BanglaGPT';
+import Prompt from '../Prompt/Prompt';
 
 const Home = () => {
     return (
@@ -10,6 +11,7 @@ const Home = () => {
             <Medium></Medium>
             <Technology></Technology>
             <BanglaGPT></BanglaGPT>
+            <Prompt></Prompt>
         </div>
     );
 };
