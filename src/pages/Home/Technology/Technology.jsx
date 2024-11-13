@@ -6,8 +6,8 @@ import Marquee from "react-fast-marquee";
 
 const Technology = () => {
   return (
-    <div className="py-8">
-      <Marquee className="pt-16" speed={50} gradient={false} direction="right">
+    <div className="py-6">
+      <Marquee className="pt-6" speed={50} gradient={false} direction="right">
         <div className="flex gap-4">
           <div className="border border-white p-4 rounded-md shadow-md text-center text-white text-xl md:text-4xl font-extrabold font-serif px-4">
             <p
@@ -83,7 +83,7 @@ const Technology = () => {
           </div>
         </div>
       </Marquee>
-      <Marquee className="my-5" direction="left" speed={50}>
+      <Marquee className="my-5" direction="left" speed={40}>
         <div className="flex gap-4">
           <div className="border border-white p-4 rounded-md shadow-md text-center text-white text-xl md:text-4xl font-extrabold font-serif px-4">
             <p
@@ -163,6 +163,82 @@ const Technology = () => {
               style={{ fontFamily: "Atma, sans-serif", fontWeight: 400 }}
             >
               জলবায়ু পরিবর্তন
+            </p>
+          </div>
+        </div>
+      </Marquee>
+      <Marquee className="my-5" speed={50} gradient={false} direction="right">
+        <div className="flex gap-4">
+          <div className="border border-white p-4 rounded-md shadow-md text-center text-white text-xl md:text-4xl font-extrabold font-serif px-4">
+            <p
+              className="text-xl md:text-2xl font-bold font-serif"
+              style={{ fontFamily: "Atma, sans-serif", fontWeight: 400 }}
+            >
+              লেখালেখি
+            </p>
+          </div>
+          <div className="border border-white p-4 rounded-md shadow-md text-center text-white text-xl md:text-4xl font-extrabold font-serif px-4">
+            <p
+              className="text-xl md:text-2xl font-bold font-serif"
+              style={{ fontFamily: "Atma, sans-serif", fontWeight: 400 }}
+            >
+              গল্প রচনা
+            </p>
+          </div>
+          <div className="border border-white p-4 rounded-md shadow-md text-center text-white text-xl md:text-4xl font-extrabold font-serif px-4">
+            <p
+              className="text-xl md:text-2xl font-bold font-serif"
+              style={{ fontFamily: "Atma, sans-serif", fontWeight: 400 }}
+            >
+              ব্লগ
+            </p>
+          </div>
+          <div className="border border-white p-4 rounded-md shadow-md text-center text-white text-xl md:text-4xl font-extrabold font-serif px-4">
+            <p
+              className="text-xl md:text-2xl font-bold font-serif"
+              style={{ fontFamily: "Atma, sans-serif", fontWeight: 400 }}
+            >
+               স্বাস্থ্যকর খাদ্য
+            </p>
+          </div>
+          <div className="border border-white p-4 rounded-md shadow-md text-center text-white text-xl md:text-4xl font-extrabold font-serif px-4">
+            <p
+              className="text-xl md:text-2xl font-bold font-serif"
+              style={{ fontFamily: "Atma, sans-serif", fontWeight: 400 }}
+            >
+              আকর্ষণীয় শিরোনাম 
+            </p>
+          </div>
+          <div className="border border-white p-4 rounded-md shadow-md text-center text-white text-xl md:text-4xl font-extrabold font-serif px-4">
+            <p
+              className="text-xl md:text-2xl font-bold font-serif"
+              style={{ fontFamily: "Atma, sans-serif", fontWeight: 400 }}
+            >
+              স্প্যানিশ
+            </p>
+          </div>
+          <div className="border border-white p-4 rounded-md shadow-md text-center text-white text-xl md:text-4xl font-extrabold font-serif px-4">
+            <p
+              className="text-xl md:text-2xl font-bold font-serif"
+              style={{ fontFamily: "Atma, sans-serif", fontWeight: 400 }}
+            >
+              ডিজিটাল মার্কেটিং
+            </p>
+          </div>
+          <div className="border border-white p-4 rounded-md shadow-md text-center text-white text-xl md:text-4xl font-extrabold font-serif px-4">
+            <p
+              className="text-xl md:text-2xl font-bold font-serif"
+              style={{ fontFamily: "Atma, sans-serif", fontWeight: 400 }}
+            >
+              প্রম্পটগুলো
+            </p>
+          </div>
+          <div className="border border-white p-4 rounded-md shadow-md text-center text-white text-xl md:text-4xl font-extrabold font-serif px-4">
+            <p
+              className="text-xl md:text-2xl font-bold font-serif"
+              style={{ fontFamily: "Atma, sans-serif", fontWeight: 400 }}
+            >
+              ইন্টারেক্টিভ শিক্ষা
             </p>
           </div>
         </div>
