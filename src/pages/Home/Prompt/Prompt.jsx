@@ -186,7 +186,23 @@ const Prompt = () => {
               </p>
             </div>
           </div>
-          <div className="flex-1 ">{/* Lower Right Part */}</div>
+          <div className="flex-1 ">
+          <div
+              className="flex flex-col text-lg text-center justify-center items-center"
+              style={{ fontFamily: "Atma, sans-serif", fontWeight: 500 }}
+            >
+              <p>
+              আমি{" "}
+                <span className="font-extrabold">[বিষয় বা দক্ষতা]</span>আয়ত্ত করার জন্য একটি অধ্যয়ন পরিকল্পনা করতে সাহায্য করুন।
+              </p>
+              <p>
+              উদাহরণ: "আমি ছয় মাসে স্প্যানিশ আয়ত্ত করার জন্য একটি পরিকল্পনা চাই।"
+              </p>
+              <p>
+              ব্যাখ্যা: এটি একটি সংগঠিত পরিকল্পনা তৈরি করতে সহায়ক, যা অধ্যয়নে সাহায্য করে।
+              </p>
+            </div>
+          </div>
         </div>
         {/* Left Part: One Full Section */}
         <div className="w-3/5 flex flex-col border border-white">
