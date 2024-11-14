@@ -51,7 +51,21 @@ const Prompt = () => {
         {/* Right Section */}
         <div className="w-2/5 flex flex-col border border-white">
           <div className="h-4/5   border-b border-white">
-            {/* Upper Right (80% of right section) */}
+          <div
+              className="flex flex-col text-2xl text-center justify-center items-center"
+              style={{ fontFamily: "Atma, sans-serif", fontWeight: 400 }}
+            >
+              <p>
+              আপনি কি{" "}
+                <span className="font-extrabold">[ধারণা] </span>  সহজ ভাষায় ব্যাখ্যা করতে পারবেন?
+              </p>
+              <p>
+              উদাহরণ: "ব্লকচেইন সহজ ভাষায় ব্যাখ্যা করতে পারবেন?"
+              </p>
+              <p>
+              ব্যাখ্যা: এটি জটিল ধারণাগুলোকে সহজ ভাষায় ব্যাখ্যা করতে সাহায্য করে।
+              </p>
+            </div>
           </div>
           <div className="h-1/5 ">
             {/* Lower Right (20% of right section) */}
