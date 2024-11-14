@@ -170,7 +170,21 @@ const Prompt = () => {
         {/* Right Part: Two Equal Stacked Sections */}
         <div className="w-1/2 flex flex-col">
           <div className="flex-1  border-b border-white">
-            {/* Upper Right Part */}
+          <div
+              className="flex flex-col text-lg text-center justify-center items-center"
+              style={{ fontFamily: "Atma, sans-serif", fontWeight: 500 }}
+            >
+              <p>
+              আমি{" "}
+                <span className="font-extrabold">[দক্ষতা বা বিষয়] </span>শিখতে সেরা উপকরণগুলো কী?
+              </p>
+              <p>
+              উদাহরণ: "পাইথন প্রোগ্রামিং শিখতে সেরা উপকরণগুলো কী?
+              </p>
+              <p>
+              ব্যাখ্যা: এটি মানসম্মত শিক্ষণ উপকরণের সন্ধান দেয়।
+              </p>
+            </div>
           </div>
           <div className="flex-1 ">{/* Lower Right Part */}</div>
         </div>
