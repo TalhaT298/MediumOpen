@@ -68,7 +68,21 @@ const Prompt = () => {
             </div>
           </div>
           <div className="h-1/5 ">
-            {/* Lower Right (20% of right section) */}
+          <div
+              className="flex flex-col text-xs text-center justify-center items-center"
+              style={{ fontFamily: "Atma, sans-serif", fontWeight: 400 }}
+            >
+              <p>
+              মানুষ সাধারণত{" "}
+                <span className="font-extrabold">[বিষয়] </span> সম্পর্কে কোন কোন প্রশ্ন করে?
+              </p>
+              <p>
+              উদাহরণ: "মানুষ সাধারণত ব্যক্তিগত অর্থনীতি সম্পর্কে কোন প্রশ্নগুলো করে?"
+              </p>
+              <p>
+              ব্যাখ্যা: এটি সাধারণ প্রশ্নগুলো জানতে সাহায্য করে, যা লেখালেখি বা আলোচনার জন্য উপযোগী।
+              </p>
+            </div>
           </div>
         </div>
       </div>
