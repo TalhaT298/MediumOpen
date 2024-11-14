@@ -207,7 +207,21 @@ const Prompt = () => {
         {/* Left Part: One Full Section */}
         <div className="w-3/5 flex flex-col border border-white">
           <div className="h-3/5  border-b border-white">
-            {/* Upper Left (60% of left section) */}
+          <div
+              className="flex flex-col text-lg text-center justify-center items-center"
+              style={{ fontFamily: "Atma, sans-serif", fontWeight: 500 }}
+            >
+              <p>
+              আমাকে{" "}
+                <span className="font-extrabold">[ধারণা A] এবং [ধারণা B]</span> এর প্রধান পার্থক্যগুলো ব্যাখ্যা করুন।
+              </p>
+              <p>
+              উদাহরণ: "নবায়নযোগ্য এবং অ-নবায়নযোগ্য জ্বালানি মধ্যে পার্থক্যগুলো ব্যাখ্যা করুন।"
+              </p>
+              <p>
+              ব্যাখ্যা: এটি তুলনামূলক ধারণা বুঝতে সহায়ক।
+              </p>
+            </div>
           </div>
           <div className="h-2/5 ">{/* Lower Left (40% of left section) */}</div>
         </div>
