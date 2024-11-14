@@ -92,7 +92,21 @@ const Prompt = () => {
         {/* Left Part: 3 equal vertical parts */}
         <div className="w-1/2 flex flex-col border-r border-white">
           <div className="flex-1   border-b border-white">
-            {/* 1st Left Part */}
+          <div
+              className="flex flex-col text-base text-center justify-center items-center"
+              style={{ fontFamily: "Atma, sans-serif", fontWeight: 400 }}
+            >
+              <p>
+              আপনি কি {" "}
+                <span className="font-extrabold">[থিম বা চরিত্র]</span>  নিয়ে একটি সৃজনশীল গল্প তৈরি করতে পারেন?
+              </p>
+              <p>
+              উদাহরণ: "আপনি কি একজন গোয়েন্দা সম্পর্কে একটি গল্প তৈরি করতে পারেন, যে প্রযুক্তি ব্যবহার করে অপরাধ সমাধান করে?"
+              </p>
+              <p>
+              ব্যাখ্যা: এটি গল্প রচনার অনুপ্রেরণা দেয়, চর্চা বা বিনোদনের জন্য উপযোগী।
+              </p>
+            </div>
           </div>
           <div className="flex-1   border-b border-white">
             {/* 2nd Left Part */}
