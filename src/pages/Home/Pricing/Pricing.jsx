@@ -3,11 +3,31 @@ import React from 'react';
 
 const Pricing = () => {
     return (
+        < >
+        <div className='flex flex-col text-center py-5 pt-28'>
+          <h1
+            className="text-3xl md:text-5xl font-semibold mb-4"
+            style={{ fontFamily: "Atma, sans-serif", fontWeight: 600 }}
+          >
+            Get started with বাংলাGPT today
+          </h1>
+          <a
+            href="https://chatgpt.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <p className="text-white underline text-lg mt-4 cursor-pointer">
+            View pricing plans &gt;
+            </p>
+          </a>
+        </div>
+
         <div className="flex flex-col md:flex-row justify-center items-center gap-8 p-8  text-white">
+            
             {/* Free Plan */}
-            <div className="w-full md:w-1/2 lg:w-1/3 bg-zinc-800 rounded-lg p-6 h-[550px]">
+            <div className="w-full md:w-1/2 lg:w-2/5 bg-zinc-800 rounded-lg p-6 h-[580px]">
                 <h3 className="text-xl font-bold">Free</h3>
-                <p className="text-4xl font-semibold my-4">$0 <span className="text-lg font-normal">/ month</span></p>
+                <p className="text-2xl font-semibold my-4">$0 <span className="text-lg font-normal">/ month</span></p>
                 <p className="text-white">For individuals just getting started with ChatGPT</p>
                 <button className="bg-white text-black font-bold py-2 px-4 rounded-full mt-4">Start now</button>
                 <ul className="mt-6 space-y-2 font-bold">
@@ -20,9 +40,9 @@ const Pricing = () => {
             </div>
 
             {/* Plus Plan */}
-            <div className="w-full md:w-1/2 lg:w-1/3 bg-zinc-800 rounded-lg p-6">
+            <div className="w-full md:w-1/2 lg:w-2/5 bg-zinc-800 rounded-lg p-6 h-[580px]">
                 <h3 className="text-xl font-bold">Plus</h3>
-                <p className="text-4xl font-semibold my-4">$20 <span className="text-lg font-normal">/ month</span></p>
+                <p className="text-2xl font-semibold my-4">$20 <span className="text-lg font-normal">/ month</span></p>
                 <p className="text-white">For individuals looking to amplify their productivity</p>
                 <button className="bg-white text-black font-bold py-2 px-4 rounded-full mt-4">Start now</button>
                 <ul className="mt-6 space-y-2 font-bold">
@@ -37,6 +57,7 @@ const Pricing = () => {
                 </ul>
             </div>
         </div>
+        </>
     );
 };
 
