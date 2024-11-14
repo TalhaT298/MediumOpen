@@ -223,7 +223,23 @@ const Prompt = () => {
               </p>
             </div>
           </div>
-          <div className="h-2/5 ">{/* Lower Left (40% of left section) */}</div>
+          <div className="h-2/5 ">
+          <div
+              className="flex flex-col text-lg text-center justify-center items-center"
+              style={{ fontFamily: "Atma, sans-serif", fontWeight: 500 }}
+            >
+              <p>
+              আমি {" "}
+                <span className="font-extrabold">[বিশেষ বিষয়]</span> নিয়ে একটি সাক্ষাৎকারের জন্য প্রস্তুতি নিতে সাহায্য করুন।
+              </p>
+              <p>
+              উদাহরণ: "ডিজিটাল মার্কেটিং নিয়ে একটি সাক্ষাৎকারের জন্য প্রস্তুতি নিতে সাহায্য করুন।"
+              </p>
+              <p>
+              ব্যাখ্যা: এটি সাধারণ প্রশ্ন এবং টিপস দেয়, যা চর্চার জন্য সহায়ক।
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
