@@ -30,8 +30,22 @@ const Prompt = () => {
             </div>
           </div>
           <div className="h-2/5 ">
-          
-          {/* Lower Left (40% of left section) */}</div>
+          <div
+              className="flex flex-col text-xl text-center justify-center items-center"
+              style={{ fontFamily: "Atma, sans-serif", fontWeight: 400 }}
+            >
+              <p>
+              আমি{" "}
+                <span className="font-extrabold">[বিশেষ বিষয়]</span> সম্পর্কে কোন গুরুত্বপূর্ণ বিষয়গুলো জানা উচিত?
+              </p>
+              <p>
+              উদাহরণ: "মেশিন লার্নিং সম্পর্কে কোন গুরুত্বপূর্ণ বিষয়গুলো জানা উচিত?
+              </p>
+              <p>
+              ব্যাখ্যা: এটি দ্রুত বিষয়ে একটি সংক্ষিপ্ত ধারণা বা রিফ্রেশারের জন্য উপযুক্ত।
+              </p>
+            </div>
+          </div>
         </div>
 
         {/* Right Section */}
