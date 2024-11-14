@@ -53,7 +53,7 @@ const Prompt = () => {
           <div className="h-4/5   border-b border-white">
           <div
               className="flex flex-col text-2xl text-center justify-center items-center"
-              style={{ fontFamily: "Atma, sans-serif", fontWeight: 400 }}
+              style={{ fontFamily: "Atma, sans-serif", fontWeight: 500 }}
             >
               <p>
               আপনি কি{" "}
@@ -70,7 +70,7 @@ const Prompt = () => {
           <div className="h-1/5 ">
           <div
               className="flex flex-col text-xs text-center justify-center items-center"
-              style={{ fontFamily: "Atma, sans-serif", fontWeight: 400 }}
+              style={{ fontFamily: "Atma, sans-serif", fontWeight: 500 }}
             >
               <p>
               মানুষ সাধারণত{" "}
@@ -94,7 +94,7 @@ const Prompt = () => {
           <div className="flex-1   border-b border-white">
           <div
               className="flex flex-col text-base text-center justify-center items-center"
-              style={{ fontFamily: "Atma, sans-serif", fontWeight: 400 }}
+              style={{ fontFamily: "Atma, sans-serif", fontWeight: 500 }}
             >
               <p>
               আপনি কি {" "}
@@ -111,7 +111,7 @@ const Prompt = () => {
           <div className="flex-1   border-b border-white">
           <div
               className="flex flex-col text-base text-center justify-center items-center"
-              style={{ fontFamily: "Atma, sans-serif", fontWeight: 400 }}
+              style={{ fontFamily: "Atma, sans-serif", fontWeight: 500 }}
             >
               <p>
               আমাকে {" "}
@@ -128,7 +128,7 @@ const Prompt = () => {
           <div className="flex-1 ">
           <div
               className="flex flex-col text-base text-center justify-center items-center"
-              style={{ fontFamily: "Atma, sans-serif", fontWeight: 400 }}
+              style={{ fontFamily: "Atma, sans-serif", fontWeight: 500 }}
             >
               <p>
               আপনি কি{" "}
@@ -145,7 +145,24 @@ const Prompt = () => {
         </div>
 
         {/* Right Part: Full Height */}
-        <div className="w-1/2 ">{/* Right Part */}</div>
+        <div className="w-1/2 ">
+        <div
+              className="flex flex-col text-2xl text-center justify-center items-center pt-12"
+              style={{ fontFamily: "Atma, sans-serif", fontWeight: 400 }}
+            >
+              <p>
+              আমার{" "}
+                <span className="font-extrabold">[বিষয়] </span> নিয়ে একটি আকর্ষণীয় শিরোনাম দরকার।
+              </p>
+              <p>
+              উদাহরণ: "আমার ধ্যানের উপকারিতা নিয়ে একটি আকর্ষণীয় শিরোনাম দরকার।"
+              </p>
+              <p>
+              ব্যাখ্যা: আকর্ষণীয় শিরোনাম পাঠকদের আকৃষ্ট করতে সহায়ক।
+              </p>
+            </div>
+        
+        </div>
       </div>
 
       {/* New Bottom Section ---------*/}
