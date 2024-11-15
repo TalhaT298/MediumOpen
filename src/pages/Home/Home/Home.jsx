@@ -22,6 +22,7 @@ const Home = () => {
             <AnotherEdit></AnotherEdit>
             <Learn></Learn>
             <Features></Features>
+            <W
             <Pricing></Pricing>
             <Try></Try>
         </div>
