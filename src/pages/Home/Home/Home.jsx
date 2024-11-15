@@ -8,6 +8,7 @@ import Try from '../Try/Try';
 import Pricing from '../Pricing/Pricing';
 import Edit from '../Edit/Edit';
 import AnotherEdit from '../AnotherEdit/AnotherEdit';
+import Learn from '../Learn/Learn';
 
 const Home = () => {
     return (
@@ -18,6 +19,7 @@ const Home = () => {
             <Prompt></Prompt>
             <Edit></Edit>
             <AnotherEdit></AnotherEdit>
+            <Learn></Learn>
             <Pricing></Pricing>
             <Try></Try>
         </div>
