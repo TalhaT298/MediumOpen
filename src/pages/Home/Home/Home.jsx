@@ -6,6 +6,7 @@ import BanglaGPT from '../BanglaGPT/BanglaGPT';
 import Prompt from '../Prompt/Prompt';
 import Try from '../Try/Try';
 import Pricing from '../Pricing/Pricing';
+import Edit from '../Edit/Edit';
 
 const Home = () => {
     return (
@@ -14,6 +15,7 @@ const Home = () => {
             <Technology></Technology>
             <BanglaGPT></BanglaGPT>
             <Prompt></Prompt>
+            <Edit></Edit>
             <Pricing></Pricing>
             <Try></Try>
         </div>
