@@ -55,7 +55,7 @@ const Apple = () => {
             </p>
             <a
               href="#"
-              className="text-blue-400 underline text-sm md:text-base hover:text-blue-300"
+              className=" underline text-sm md:text-base "
             >
               Learn More
             </a>
