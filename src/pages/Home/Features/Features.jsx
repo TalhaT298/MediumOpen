@@ -4,7 +4,7 @@ import chat1 from "../../../assets/chat1.mp4";
 const Features = () => {
   return (
     <div className="py-10">
-       <div className="flex items-center justify-center  bg-black text-center text-white">
+       <div className="flex items-center justify-center  bg-black text-center pb-10 text-white">
         <div>
           <h1
             className="text-3xl md:text-5xl font-semibold mb-4"
