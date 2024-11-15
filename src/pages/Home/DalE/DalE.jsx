@@ -1,33 +1,70 @@
+// /* eslint-disable no-unused-vars */
+// import React from 'react';
+// import chat7 from "../../../assets/banner7.png";
+// const DalE = () => {
+//     return (
+//         <div className="py-10">
+//       <div className="flex items-center justify-center ">
+//         <div className="w-2/5 p-8 text-white bg-zinc-900 h-[550px]">
+//           <div className="flex items-center justify-center ">
+//             <div className="pt-40">
+//               <div className="flex flex-col items-start">
+//                 <h1 className="text-3xl font-bold mb-4">Create images</h1>
+//                 <p className="text-xl items-start">
+//                 Ask ChatGPT to create images using a simple sentence or detailed paragraph.
+//                 </p>
+//               </div>
+//             </div>
+//           </div>
+//         </div>
+
+//         <div className="w-2/5 flex items-center justify-center bg-blue-100">
+//           <div className="b   h-[545px]  flex items-center justify-center">
+//             <div className="w-[520px] h-[550px] ">
+//               <img src={chat7} alt="" />
+//             </div>
+//           </div>
+//         </div>
+//       </div>
+//     </div>
+//     );
+// };
+
+// export default DalE;
+
 /* eslint-disable no-unused-vars */
 import React from 'react';
 import chat7 from "../../../assets/banner7.png";
+
 const DalE = () => {
-    return (
-        <div className="py-10">
-      <div className="flex items-center justify-center ">
-        <div className="w-2/5 p-8 text-white bg-zinc-900 h-[550px]">
-          <div className="flex items-center justify-center ">
-            <div className="pt-40">
-              <div className="flex flex-col items-start">
-                <h1 className="text-3xl font-bold mb-4">Create images</h1>
-                <p className="text-xl items-start">
-                Ask ChatGPT to create images using a simple sentence or detailed paragraph.
-                </p>
-              </div>
-            </div>
+  return (
+    <div className="py-10">
+      <div className="flex flex-col md:flex-row items-center justify-center">
+        {/* Text Section */}
+        <div className="w-full md:w-2/5 p-6 md:p-8 text-white bg-zinc-900 h-auto md:h-[550px]">
+          <div className="flex flex-col items-center md:items-start justify-center h-full">
+            <h1 className="text-xl md:text-3xl font-bold mb-4">Create images</h1>
+            <p className="text-base md:text-xl text-center md:text-left">
+              Ask ChatGPT to create images using a simple sentence or detailed paragraph.
+            </p>
           </div>
         </div>
 
-        <div className="w-2/5 flex items-center justify-center bg-blue-100">
-          <div className="b   h-[545px]  flex items-center justify-center">
-            <div className="w-[520px] h-[550px] ">
-              <img src={chat7} alt="" />
+        {/* Image Section */}
+        <div className="w-full md:w-2/5 flex items-center justify-center bg-blue-100">
+          <div className="bg-white w-full md:w-auto h-auto md:h-[550px] flex items-center justify-center">
+            <div className="w-full max-w-[520px] h-auto md:h-[550px]">
+              <img
+                src={chat7}
+                alt="Create images"
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
         </div>
       </div>
     </div>
-    );
+  );
 };
 
 export default DalE;
