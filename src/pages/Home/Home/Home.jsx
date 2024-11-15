@@ -10,6 +10,7 @@ import Edit from '../Edit/Edit';
 import AnotherEdit from '../AnotherEdit/AnotherEdit';
 import Learn from '../Learn/Learn';
 import Features from '../Features/Features';
+import Web from '../Web/Web';
 
 const Home = () => {
     return (
@@ -22,7 +23,7 @@ const Home = () => {
             <AnotherEdit></AnotherEdit>
             <Learn></Learn>
             <Features></Features>
-            <W
+            <Web></Web>
             <Pricing></Pricing>
             <Try></Try>
         </div>
