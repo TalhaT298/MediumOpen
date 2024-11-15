@@ -11,6 +11,7 @@ import AnotherEdit from '../AnotherEdit/AnotherEdit';
 import Learn from '../Learn/Learn';
 import Features from '../Features/Features';
 import Web from '../Web/Web';
+import Chart from '../Chart/Chart';
 
 const Home = () => {
     return (
@@ -24,6 +25,7 @@ const Home = () => {
             <Learn></Learn>
             <Features></Features>
             <Web></Web>
+            <Chart></Chart>
             <Pricing></Pricing>
             <Try></Try>
         </div>
