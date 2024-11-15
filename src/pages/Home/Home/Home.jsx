@@ -7,6 +7,7 @@ import Prompt from '../Prompt/Prompt';
 import Try from '../Try/Try';
 import Pricing from '../Pricing/Pricing';
 import Edit from '../Edit/Edit';
+import AnotherEdit from '../AnotherEdit/AnotherEdit';
 
 const Home = () => {
     return (
@@ -16,6 +17,7 @@ const Home = () => {
             <BanglaGPT></BanglaGPT>
             <Prompt></Prompt>
             <Edit></Edit>
+            <AnotherEdit></AnotherEdit>
             <Pricing></Pricing>
             <Try></Try>
         </div>
