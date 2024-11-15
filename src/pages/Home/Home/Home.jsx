@@ -9,6 +9,7 @@ import Pricing from '../Pricing/Pricing';
 import Edit from '../Edit/Edit';
 import AnotherEdit from '../AnotherEdit/AnotherEdit';
 import Learn from '../Learn/Learn';
+import Features from '../Features/Features';
 
 const Home = () => {
     return (
@@ -20,6 +21,7 @@ const Home = () => {
             <Edit></Edit>
             <AnotherEdit></AnotherEdit>
             <Learn></Learn>
+            <Features></Features>
             <Pricing></Pricing>
             <Try></Try>
         </div>
