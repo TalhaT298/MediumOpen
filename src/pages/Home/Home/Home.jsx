@@ -12,6 +12,7 @@ import Learn from '../Learn/Learn';
 import Features from '../Features/Features';
 import Web from '../Web/Web';
 import Chart from '../Chart/Chart';
+import Talk from '../Talk/Talk';
 
 const Home = () => {
     return (
@@ -26,6 +27,7 @@ const Home = () => {
             <Features></Features>
             <Web></Web>
             <Chart></Chart>
+            <Talk></Talk>
             <Pricing></Pricing>
             <Try></Try>
         </div>
