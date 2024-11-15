@@ -10,7 +10,7 @@ const Edit = () => {
             className="text-3xl md:text-5xl font-semibold mb-4"
             style={{ fontFamily: "Atma, sans-serif", fontWeight: 600 }}
           >
-            Summarize meetings. Find new <br /> nsights. Increase productivity.
+            Summarize meetings. Find new <br /> insights. Increase productivity.
           </h1>
           <a
             href="https://chatgpt.com/"
