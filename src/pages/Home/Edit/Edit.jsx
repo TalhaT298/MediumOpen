@@ -4,7 +4,7 @@ import banner2 from "../../../assets/banner2.png";
 const Edit = () => {
     return (
         <>
-      <div className="flex items-center justify-center  bg-black text-center text-white py-14">
+      <div className="flex items-center justify-center  bg-black text-center text-white pt-14">
         <div>
           <h1
             className="text-3xl md:text-5xl font-semibold mb-4"
