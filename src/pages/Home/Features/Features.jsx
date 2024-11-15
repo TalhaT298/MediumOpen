@@ -4,15 +4,14 @@ import chat1 from "../../../assets/chat1.mp4";
 const Features = () => {
   return (
     <div className="py-10">
-       <div className="flex items-center justify-center  bg-black text-center pb-10 text-white">
+      <div className="flex items-center justify-center  bg-black text-center pb-10 text-white">
         <div>
           <h1
             className="text-3xl md:text-5xl font-semibold mb-4"
             style={{ fontFamily: "Atma, sans-serif", fontWeight: 600 }}
           >
-           Explore more features in বাংলাGPT
+            Explore more features in বাংলাGPT
           </h1>
-          
         </div>
       </div>
       <div className="flex items-center justify-center ">
@@ -35,15 +34,13 @@ const Features = () => {
         <div className="w-2/5 flex items-center justify-center bg-blue-100">
           <div className="bg-white  w- h-[550px]  flex items-center justify-center">
             <div className="w-[500px] h-[550px] ">
-            <video
-        src={chat1}
-        className="w-full h-full rounded-lg"
-        controls
-        autoPlay
-        loop
-      >
-        
-      </video>
+              <video
+                src={chat1}
+                className="w-full h-full rounded-lg"
+                controls
+                autoPlay
+                loop
+              ></video>
             </div>
           </div>
         </div>
