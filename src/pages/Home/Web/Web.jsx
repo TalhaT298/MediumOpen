@@ -28,7 +28,7 @@ const Web = () => {
             <div className="w-[520px] h-[550px] ">
               <video
                 src={chat2}
-                className="w-full h-full rounded-lg"
+                className="w-full h-full "
                 controls
                 autoPlay
                 loop

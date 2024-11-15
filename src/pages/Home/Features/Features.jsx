@@ -37,7 +37,7 @@ const Features = () => {
             <div className="w-[520px] h-[550px] ">
               <video
                 src={chat1}
-                className="w-full h-full rounded-lg"
+                className="w-full h-full"
                 controls
                 autoPlay
                 loop
