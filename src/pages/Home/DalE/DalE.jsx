@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
-import chat6 from "../../../assets/banner6.png";
+import chat7 from "../../../assets/banner7.png";
 const DalE = () => {
     return (
         <div className="py-10">
@@ -21,7 +21,7 @@ const DalE = () => {
         <div className="w-2/5 flex items-center justify-center bg-blue-100">
           <div className="b   h-[550px]  flex items-center justify-center">
             <div className="w-[520px] h-[550px] ">
-              <img src={chat6} alt="" />
+              <img src={chat7} alt="" />
             </div>
           </div>
         </div>
