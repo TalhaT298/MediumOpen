@@ -30,7 +30,7 @@ Ensure you have the following installed on your machine:
    git clone https://github.com/yourusername/banglagpt.git
     cd banglagpt
     ```
-2. **Navigate into the project directory:
+2. Navigate into the project directory:
    ```bash
    cd banglagpt
     ```
