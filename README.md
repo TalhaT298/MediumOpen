@@ -1,6 +1,6 @@
 # BanglaGPT
 
-BanglaGPT is an AI-powered platform designed to enhance workflows, simplify creativity, and provide a seamless user experience for Bengali speakers. This project leverages modern frameworks and tools to deliver a responsive, efficient, and interactive application.
+## BanglaGPT is an AI-powered platform designed to enhance workflows, simplify creativity, and provide a seamless user experience for Bengali speakers. This project leverages modern frameworks and tools to deliver a responsive, efficient, and interactive application.
 A platform I created where you can effortlessly use ChatGPT through Bengali prompts! 💻✨
 My goal is to make AI technology more accessible, effective, and user-friendly for Bengali speakers worldwide.
 ---
