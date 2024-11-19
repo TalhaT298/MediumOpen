@@ -1,6 +1,6 @@
 # BanglaGPT
 
-## BanglaGPT is an AI-powered platform designed to enhance workflows, simplify creativity, and provide a seamless user experience for Bengali speakers. This project leverages modern frameworks and tools to deliver a responsive, efficient, and interactive application.
+BanglaGPT is an AI-powered platform designed to enhance workflows, simplify creativity, and provide a seamless user experience for Bengali speakers. This project leverages modern frameworks and tools to deliver a responsive, efficient, and interactive application.
 A platform I created where you can effortlessly use ChatGPT through Bengali prompts! 💻✨
 My goal is to make AI technology more accessible, effective, and user-friendly for Bengali speakers worldwide.
 ---
@@ -34,4 +34,16 @@ Ensure you have the following installed on your machine:
 2. Navigate into the project directory:
    ```bash
    cd banglagpt
+    ```
+3. Install dependencies:
+   ```bash
+   npm install
+    ```
+4. Start the development server:
+   ```bash
+   npm run dev
+    ```
+5. Open your browser and navigate to:
+   ```bash
+   http://localhost:5173
     ```
